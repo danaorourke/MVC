@@ -1,0 +1,49 @@
+@charset "utf-8";
+/*-----------------------------------------------------
+ *	version:	 (9/24/12)	
+ *	origin:		.com by Dana O'Rourke @ CupofTeaCreations.com
+-------------------------------------------------------*/
+
+/* reset
+-------------------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baseline;}
+html {overflow-y: scroll;}
+body {line-height: 1;}
+focus {outline: 1;}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, video {display: block;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+a, img {border: 0; outline: none;}
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+table {border-collapse: collapse; border-spacing: 0;}
+input, select {vertical-align: middle;}
+
+/* general */
+html {background: #EEEEEE; color: #080808; font: 16px 'Helvetica Neue', Helvetica, sans-serif; width: 100%;}
+body {padding: 0 20px; margin: 0 auto; width: 700px;}
+h1, h2, h3 {font: 3em/1.33 'Helvetica Neue', Helvetica, sans-serif;}
+input, select, option {font: 16px 'Helvetica Neue', Helvetica, sans-serif;}
+h1 {font-size: 4.2em;}
+a, a:visited {color: #080808; text-decoration: none;}
+
+#header {text-align: center; padding-top: 50px;}
+#content {padding: 40px 0;}
+    #searchform {text-align: center; margin: 0 auto 20px; width: 90%;}
+    #q-label {display: block;}
+    #q {margin: 5px 10px 20px; padding: 5px 10px;}
+    #submit {display: block; margin: 0 auto;}
+    
+    #content h1, #content h2 {font-size: 2em; text-align: center; margin-bottom: 10px;}
+    #content img {border: 1px solid #CCCCCC; display: block; margin: 0 auto 30px;}
+    #content p {padding-bottom: 20px;}
+    
+    .produce-data {margin: 0  auto 20px; text-align: center; width: 100%;}
+        .produce-data img {height: 50px; width: 50px;}
+        .produce-data th {padding-bottom: 5px;}
+        .produce-data td {padding: 5px 0; vertical-align: center;}
+    
+    .seed-data {margin: 0 auto; text-align: center;}
+        .seed-data th {padding: 5px 7px;}
+        .seed-data td {padding: 5px 0;}
+    
+#footer {text-align: center; padding-bottom: 80px;}
